@@ -1,0 +1,62 @@
+$navActive: #FF1200
+
+body
+    background: #eee
+    font-family: Tahoma, Verdana, Segoe, sans-serif
+a
+    text-decoration: none
+li
+    list-style-type: none
+nav 
+    background: #fff
+    a
+        font-family: Tahoma, Verdana, Segoe, sans-serif
+    #nav-logo
+        float: left
+        margin-left: 6%
+        margin-right: 6%
+        img
+            padding: 20px
+        img:hover
+            opacity: .9
+    div#nav-links
+        display: inline-block
+        ul
+            display: inline
+            &>li
+                display: inline-block
+                &>a
+                    text-transform: uppercase
+                    color: #000
+                    font-size: 13px
+                    line-height: 73px
+                    padding: 0 33px 27px
+                &>a:hover
+                    color: $navActive
+            &>li a:hover
+                border-bottom: 2px solid $navActive
+        div#nav-language
+            display: inline-block
+            &>span
+                color: #999
+                display: inline-block
+                width: 90px
+                line-height: 73px
+                background: url(/img/exp-ic.png) no-repeat
+                background-position: 70% 50%
+                position: relative
+            &>span, ul li
+                position: relative
+                text-align: center
+                width: 90px
+                border-left: 1px solid #ccc
+                border-right: 1px solid #ccc
+            &>span:hover ul
+                background: green
+                // visibility: hidden
+            ul
+                background: red
+                // visibility: hidden
+                
+
+                

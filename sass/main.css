@@ -1,0 +1,60 @@
+body {
+  background: #eee;
+  font-family: Tahoma, Verdana, Segoe, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+nav {
+  background: #fff; }
+  nav a {
+    font-family: Tahoma, Verdana, Segoe, sans-serif; }
+  nav #nav-logo {
+    float: left;
+    margin-left: 6%;
+    margin-right: 6%; }
+    nav #nav-logo img {
+      padding: 20px; }
+    nav #nav-logo img:hover {
+      opacity: 0.9; }
+  nav div#nav-links {
+    display: inline-block; }
+    nav div#nav-links ul {
+      display: inline; }
+      nav div#nav-links ul > li {
+        display: inline-block; }
+        nav div#nav-links ul > li > a {
+          text-transform: uppercase;
+          color: #000;
+          font-size: 13px;
+          line-height: 73px;
+          padding: 0 33px 27px; }
+        nav div#nav-links ul > li > a:hover {
+          color: #FF1200; }
+      nav div#nav-links ul > li a:hover {
+        border-bottom: 2px solid #FF1200; }
+    nav div#nav-links div#nav-language {
+      display: inline-block; }
+      nav div#nav-links div#nav-language > span {
+        color: #999;
+        display: inline-block;
+        width: 90px;
+        line-height: 73px;
+        background: url(/img/exp-ic.png) no-repeat;
+        background-position: 70% 50%;
+        position: relative; }
+      nav div#nav-links div#nav-language > span, nav div#nav-links div#nav-language ul li {
+        position: relative;
+        text-align: center;
+        width: 90px;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc; }
+      nav div#nav-links div#nav-language > span:hover ul {
+        background: green; }
+      nav div#nav-links div#nav-language ul {
+        background: red; }
+
+/*# sourceMappingURL=main.css.map */
